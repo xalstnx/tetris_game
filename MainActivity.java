@@ -42,7 +42,7 @@ public class MainActivity extends Activity {
 		b1.setOnTouchListener(bc);
 		b2.setOnTouchListener(bc);
 		b3.setOnTouchListener(bc);
-		b4.setOnTouchListener(bc);
+		b4.setOnTouchListener(bc); //1
 
 		final TextView tv = (TextView) findViewById(R.id.tvGameOver);		
 		Thread timer = new Thread() {
@@ -73,4 +73,4 @@ public class MainActivity extends Activity {
 		timer.start();
 	}
 
-}
+}//2
